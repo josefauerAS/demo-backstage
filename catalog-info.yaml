@@ -190,7 +190,7 @@ metadata:
   name: resources-api
   description: Demo API
   annotations:
-    backstage.io/techdocs-ref: dir:.
+    backstage.io/techdocs-ref: dir:./infra-docs
   tags:
     - "kubernetes"
     - "poweruser"
