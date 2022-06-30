@@ -189,7 +189,8 @@ kind: API
 metadata:
   name: resources-api
   description: Demo API
-  backstage.io/techdocs-ref: dir:.
+  annotations:
+    backstage.io/techdocs-ref: dir:.
   tags:
     - "kubernetes"
     - "poweruser"
