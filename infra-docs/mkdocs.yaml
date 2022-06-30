@@ -2,5 +2,8 @@ site_name: "OTT Backstage Docs"
 
 nav:
   - Home: index.md
+  - Sections:
+      - "Subsection One": sub1.md
+      - "Subsection Two": sub2.md
 plugins:
   - techdocs-core
