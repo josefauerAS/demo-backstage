@@ -180,7 +180,26 @@ spec:
   system: demo
   definition:
     $text: https://github.com/josefauerAS/demo-backstage/blob/main/docs/openapi/petstore.yaml
-### Some Database is probably needed too
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: resources-api
+  description: Demo API
+  backstage.io/techdocs-ref: dir:.
+  tags:
+    - "kubernetes"
+    - "poweruser"
+spec:
+  type: openapi
+  lifecycle: experimental
+  owner: infra-demo-team
+  system: demo-infrastructure
+  definition:
+    $text: https://github.com/josefauerAS/demo-backstage/blob/main/docs/openapi/petstore.yaml
+
+### Some Resources required
 ---
 apiVersion: backstage.io/v1alpha1
 kind: Resource
