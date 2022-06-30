@@ -17,7 +17,7 @@
 apiVersion: backstage.io/v1alpha1
 kind: User
 metadata:
-  name: Java Engineer 1
+  name: java-engineer-1
 spec:
   profile:
     displayName: Java One
@@ -29,7 +29,7 @@ spec:
 apiVersion: backstage.io/v1alpha1
 kind: User
 metadata:
-  name: Java Engineer 2
+  name: java-engineer-2
 spec:
   profile:
     displayName: Java Two
@@ -41,7 +41,7 @@ spec:
 apiVersion: backstage.io/v1alpha1
 kind: User
 metadata:
-  name: Java Engineer 3
+  name: java-engineer-3
 spec:
   profile:
     displayName: Java Three
@@ -53,7 +53,7 @@ spec:
 apiVersion: backstage.io/v1alpha1
 kind: User
 metadata:
-  name: Infra Engineer 1
+  name: infra-engineer-1
 spec:
   profile:
     displayName: Infra One
@@ -65,7 +65,7 @@ spec:
 apiVersion: backstage.io/v1alpha1
 kind: User
 metadata:
-  name: Infra Engineer 2
+  name: infra-engineer-2
 spec:
   profile:
     displayName: Infra Two
@@ -77,7 +77,7 @@ spec:
 apiVersion: backstage.io/v1alpha1
 kind: User
 metadata:
-  name: Infra Engineer 3
+  name: infra-engineer-3
 spec:
   profile:
     displayName: Infra Three
