@@ -112,7 +112,7 @@ spec:
     email: java-admin@demo.com
   children: []
 ---
-# System
+# Systems
 apiVersion: backstage.io/v1alpha1
 kind: System
 metadata:
@@ -120,6 +120,15 @@ metadata:
   description: Demo for all of this
 spec:
   owner: java-demo-team
+  domain: demo-domain
+---
+apiVersion: backstage.io/v1alpha1
+kind: System
+metadata:
+  name: demo-infrastructure
+  description: Demo for all of this
+spec:
+  owner: infra-demo-team
   domain: demo-domain
 
 ###
@@ -154,6 +163,8 @@ spec:
   type: service
   lifecycle: experimental
   system: demo
+  dependsOn:
+    - "resource:default/postgres-demo"
   providesApis:
     - java-api
 ---
@@ -169,3 +180,14 @@ spec:
   system: demo
   definition:
     $text: https://github.com/josefauerAS/demo-backstage/blob/main/docs/openapi/petstore.yaml
+### Some Database is probably needed too
+---
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+metadata:
+  name: postgres-demo
+  description: Just a demo DB
+spec:
+  type: database
+  owner: infra-demo-team
+  system: demo-infrastructure
