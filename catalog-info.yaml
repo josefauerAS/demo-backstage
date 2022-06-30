@@ -119,7 +119,7 @@ metadata:
   name: demo
   description: Demo for all of this
 spec:
-  owner: josefauerAS
+  owner: java-demo-team
   domain: demo-domain
 
 ###
@@ -150,7 +150,7 @@ metadata:
       title: Open JDK because who likes Oracle?
       icon: document
 spec:
-  owner: josefauerAS
+  owner: java-demo-team
   type: service
   lifecycle: experimental
   system: demo
@@ -165,7 +165,7 @@ metadata:
 spec:
   type: openapi
   lifecycle: experimental
-  owner: josefauerAS
+  owner: java-demo-team
   system: demo
   definition:
     $text: https://github.com/josefauerAS/demo-backstage/blob/main/docs/openapi/petstore.yaml
