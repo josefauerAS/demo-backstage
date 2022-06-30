@@ -138,9 +138,13 @@ metadata:
   annotations:
     github.com/project-slug: josefauerAS/demo-backstage
     backstage.io/techdocs-ref: dir:.
+  # tags have a bit of a strange pattern.
+  # They need to be all lower case, seperated by - and are at most 63 characters long.
+  # Don't write Java or SpringBoot
+  # It has to be java and springboot
   tags:
-    - "Java"
-    - "SpringBoot"
+    - "java"
+    - "springboot"
   links:
     - url: https://openjdk.org/
       title: Open JDK because who likes Oracle?
