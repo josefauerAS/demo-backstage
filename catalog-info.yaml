@@ -167,6 +167,8 @@ spec:
     - "resource:default/postgres-demo"
   providesApis:
     - java-api
+  consumesApis:
+    - "resources-api"
 ---
 apiVersion: backstage.io/v1alpha1
 kind: API
