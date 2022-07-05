@@ -147,6 +147,7 @@ metadata:
   annotations:
     github.com/project-slug: josefauerAS/demo-backstage
     backstage.io/techdocs-ref: dir:.
+    backstage.io/adr-location: docs/adrs
   # tags have a bit of a strange pattern.
   # They need to be all lower case, seperated by - and are at most 63 characters long.
   # Don't write Java or SpringBoot
