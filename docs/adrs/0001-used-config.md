@@ -6,6 +6,8 @@ How to automate deployment of Backstage?
 How to ensure the possibility of Artifact promotion?
 How to not commit secrets into SCM?
 
+![alt text](github_profile.png "Title")
+
 ## Considered Options
 
 - Template Files and Environment Variables
